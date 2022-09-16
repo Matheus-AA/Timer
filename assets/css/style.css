@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+:root {
+  --back-colorSky:linear-gradient(
+    to bottom,
+    hsl(223, 100%, 47.06%) 0%,
+    hsl(238.02, 79.08%, 57.98%) 13.5%,
+    hsl(247.49, 72.22%, 57.74%) 24.2%,
+    hsl(255.61, 66.19%, 56.37%) 32.5%,
+    hsl(263.41, 60.36%, 54.95%) 38.9%,
+    hsl(271.46, 54.66%, 53.47%) 43.7%,
+    hsl(280.23, 49.05%, 51.89%) 47.4%,
+    hsl(290.27, 43.46%, 50.2%) 50.5%,
+    hsl(302.32, 41.35%, 49.15%) 53.3%,
+    hsl(313.88, 46.29%, 51.54%) 56.2%,
+    hsl(323.98, 53.09%, 53.88%) 59.6%,
+    hsl(333.25, 60.49%, 56.19%) 64.1%,
+    hsl(342.19, 68.67%, 58.49%) 69.9%,
+    hsl(351.39, 77.8%, 60.8%) 77.6%,
+    hsl(1.88, 88.47%, 62.08%) 87.5%,
+    hsl(15.06, 100%, 53.92%) 100%
+  );
+  --back-colorSky2: linear-gradient(
+    to top,
+    hsl(223, 100%, 47.06%) 0%,
+    hsl(243.36, 75.1%, 58.37%) 13.2%,
+    hsl(254.93, 66.7%, 56.49%) 23.6%,
+    hsl(264.49, 59.58%, 54.75%) 31.5%,
+    hsl(273.3, 53.43%, 53.13%) 37.5%,
+    hsl(281.96, 48.02%, 51.59%) 41.9%,
+    hsl(290.94, 43.12%, 50.09%) 45.3%,
+    hsl(300.76, 41.06%, 48.86%) 48%,
+    hsl(310.15, 44.1%, 50.74%) 50.5%,
+    hsl(318.41, 49.19%, 52.56%) 53.3%,
+    hsl(326.14, 54.71%, 54.4%) 56.7%,
+    hsl(333.74, 60.92%, 56.31%) 61.3%,
+    hsl(341.61, 68.12%, 58.34%) 67.5%,
+    hsl(350.26, 76.67%, 60.53%) 75.7%,
+    hsl(0.78, 87.22%, 62.48%) 86.4%,
+    hsl(15.06, 100%, 53.92%) 100%
+  );
+  --back-colorRed:linear-gradient(to bottom,
+  hsla(0, 100%, 50%, 0.14) 0%,
+  hsla(0, 100%, 50%, 0.182) 12.6%,
+  hsla(0, 100%, 50%, 0.232) 22.5%,
+  hsla(0, 100%, 50%, 0.288) 30.3%,
+  hsla(0, 100%, 50%, 0.349) 36.2%,
+  hsla(0, 100%, 50%, 0.415) 40.8%,
+  hsla(0, 100%, 50%, 0.482) 44.4%,
+  hsla(0, 100%, 50%, 0.551) 47.4%,
+  hsla(0, 100%, 50%, 0.621) 50.3%,
+  hsla(0, 100%, 50%, 0.689) 53.4%,
+  hsla(0, 100%, 50%, 0.754) 57.2%,
+  hsla(0, 100%, 50%, 0.816) 62%,
+  hsla(0, 100%, 50%, 0.873) 68.3%,
+  hsla(0, 100%, 50%, 0.923) 76.4%,
+  hsla(0, 100%, 50%, 0.966) 86.9%,
+  hwb(0 0% 0%) 100%);
+  --back-colorGreen:linear-gradient(to bottom,
+  hsla(123.06, 100%, 50%, 0.14) 0%,
+  hsla(122.99, 100%, 50%, 0.182) 12.6%,
+  hsla(122.91, 100%, 50%, 0.232) 22.5%,
+  hsla(122.81, 100%, 50%, 0.288) 30.3%,
+  hsla(122.7, 100%, 50%, 0.349) 36.2%,
+  hsla(122.58, 100%, 50%, 0.415) 40.8%,
+  hsla(122.45, 100%, 50%, 0.482) 44.4%,
+  hsla(122.3, 100%, 50%, 0.551) 47.4%,
+  hsla(122.15, 100%, 50%, 0.621) 50.3%,
+  hsla(121.99, 100%, 50%, 0.689) 53.4%,
+  hsla(121.82, 100%, 50%, 0.754) 57.2%,
+  hsla(121.64, 100%, 50%, 0.816) 62%,
+  hsla(121.46, 100%, 50%, 0.873) 68.3%,
+  hsla(121.28, 100%, 50%, 0.923) 76.4%,
+  hsla(121.11, 100%, 50%, 0.966) 86.9%,
+  hsl(120.94, 100%, 50%) 100%);
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--back-colorSky);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Open sans', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5em;
+}
+
+li{
+  list-style: none;
+  display: block;
+  margin-left: -40px;
+  margin-top: 10px;
+  
+}
+
+.h1{
+  font-size: 3em;
+  font-weight: normal;
+
+}
+
+.container {
+  max-width: 640px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.relogio{
+  font-size: 3em;
+}
+
+
+.iniciar, .pausar, .zerar, .apagar{
+  background: var(--back-colorSky);
+  border-radius: 15px;
+  padding: 5px;
+  font-size: .9em;
+  color: black;
+  font-weight: bold;
+}
+
+
+button:hover{
+  background: var(--back-colorSky2);
+  
+}
+
+.pausado{
+  color: rgb(255, 0, 0);
+}
+
+.iniciado{
+  color: rgb(0, 255, 4);
+}
+
+.rodando{
+  background: var(--back-colorGreen);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.parado{
+  background: var(--back-colorRed);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
